@@ -1,9 +1,32 @@
 * {
   font-family: "Courier New", sans-serif;
-  background-color: #ececec;
+}
+
+body {
+  background-color: #333;
+  margin: 0px;
+}
+
+#home-list {
+  padding: 0px;
+  display: inline-block;
+  list-style-type: none;
+}
+
+.homepage-body {
+  background-color: rgb(255, 233, 255);
+  width: 380px;
+  padding: 24px 48px;
+  margin: 0px auto;
+}
+
+.nav-container {
+  text-align: center;
 }
 
 .featured-image {
+  display: block;
+  margin: 0px auto;
   width: 300px;
   height: auto;
 }
@@ -13,11 +36,34 @@
 .taco-de-lengua {
   width: 400px;
   height: auto;
+  display: block;
+  margin: 0px auto;
+}
+
+.mochi-body,
+.california-roll-body,
+.taco-de-lengua-body {
+  width: 760px;
+  padding: 24px 48px;
+  margin: 0px auto;
+}
+
+.mochi-body {
+  background-color: #d4f8a2;
+}
+
+.california-roll-body {
+  background-color: #fff8c2;
+}
+
+.taco-de-lengua-body {
+  background-color: #ffe19a;
 }
 
 h1,
 h2 {
   font-weight: 700;
+  text-align: center;
 }
 
 h1 {
@@ -31,4 +77,14 @@ h2 {
 p {
   font-size: 16px;
   font-weight: 500;
+}
+
+a {
+  color: rgb(255, 166, 0);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
 }
